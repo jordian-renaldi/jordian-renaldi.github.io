@@ -1,0 +1,44 @@
+.button{
+    text-decoration: none;
+    font-size: 25px;
+    color: green;
+    padding: 20px 50px;
+    border: 3px solid green;
+    position: relative;
+}
+
+.button::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+
+.button::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+
+.button:hover::before{
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+
+.button:hover::after{
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
