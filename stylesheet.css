@@ -1,7 +1,12 @@
-*{
-    background-image: url("soft-blurred-pastel-holographic-design.jpg");
-    width: 100%;
-}
+
+
+    html { 
+        background: url(soft-blurred-pastel-holographic-design.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 
 .button{
     text-decoration: none;
