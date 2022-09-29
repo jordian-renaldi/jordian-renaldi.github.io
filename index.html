@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,57 +9,41 @@
     <title>
         Jordian's Personal Website
     </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1> Hello I'm Jordian </h1>
-    <img src="profilepic.jpg" alt="My Picture" style="border-radius: 50%;">
 
-    <div>
-        <table border="1" class="table-info">
-            <tr>
-                <th>Age</th>
-                <td colspan="2">22</td>
-            </tr>
-            <tr>
-                <th>Birthday</th>
-                <td colspan="2">09 August 2000</td>
-            </tr>
-            <tr>
-                <th>Hobby</th>
-                <td>Badminton</td>
-                <td>Watching Basketball</td>
-            </tr>
-            <tr>
-                <th colspan="3">Valorant Rank: Too Good</th>
-            </tr>
-        </table>
+    <div class="home" style="text-align:center ;">
+        <h1 class="header"> Hello, I'm Jordian </h1>
+        <div class="typed-out-container">
+            <h3 class="typed-out"> an aspiring Software Engineer </h3>
+        </div>
     </div>
-    <br>
-    <form action="">
-        <table border="1">
-            Key in your personal information
-            <tr>
-                <th>Name</th>
-                <td colspan="3">
-                    <input type="text">
-                </td>
-            </tr>
-            <tr>
-                <th>Relationship Status</th>
-                <td>Single<input type="radio" value="S" name="rs"></td>
-                <td>Attatched <input type="radio" value="A" name="rs"></td>
-                <td>Prefer not to say <input type="radio" value="na" name="rs"></td>
-            </tr>
-            <tr>
-                <th>Favourite fruit Checkbox?</th>
-                <td>Apple<input type="checkbox" value="apple"></td>
-                <td>Banana<input type="checkbox" value="banana"></td>
-                <td>Kiwi<input type="checkbox" value="kiwi"></td>
-            </tr>
-            <tr><th colspan="4"><input type="submit" value="Submit"><button class="button">Learn More</button></th></tr>
-        </table>
-    </form>
 
+    <div class="glass-card">
+        <div class="row">
+            <div class="col-6">
+                <img src="linkedin profile picture.jpg" alt="" width="100%" style="text-align:left">
+            </div>
+            <div class="col-6 text-center">
+                <h4 class="display-1">About me</h4>
+                <br>
+                <p class="display-5"> I am a sophomore student in Singapore Management University (SMU). I am currently
+                    studying BSc: Information Sytems and I hope to be able to be a software engineer. Though I am still
+                    exploring my options in the tech field</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
-</html>
 
+</html>

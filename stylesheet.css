@@ -1,58 +1,75 @@
-
-
-body{
-    background: url(soft-blurred-pastel-holographic-design.jpg); 
-    background-size: auto;
-    background-repeat: no-repeat
+body {
+    background: url(soft-blurred-pastel-holographic-design.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
-.button{
-    text-decoration: none;
-    font-size: 25px;
-    color: green;
-    padding: 20px 50px;
-    border: 3px solid green;
-    position: relative;
+.home {
+    margin-top: 50vh;
+    height: 60vh;
+    justify-content: center;
+    margin: auto;
 }
 
-.button::before{
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border: inherit;
-    transition: all .5s;
-    top: -15px;
-    left: -15px;
-    border-width: 3px 0 0 3px;
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8rem;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 40vh;
 }
 
-.button::after{
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border: inherit;
-    transition: all .5s;
-    bottom: -15px;
-    right: -15px;
-    border-width: 0 3px 3px 0;
+.typed-out {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    overflow: hidden;
+    border-right: black .15em solid;
+    white-space: nowrap;
+    font-size: 3rem;
+    width: 0;
+    animation:
+        typing 1s steps(30, end) forwards,
+        blink .8s infinite;
+    animation-delay: 1.2s;
+    margin-top: 10px;
 }
 
-.button:hover::before{
-    width: calc(100% + 27px);
-    height: calc(100% + 27px);
+.typed-out-container {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: black
+    }
 }
 
 
-.button:hover::after{
-    width: calc(100% + 27px);
-    height: calc(100% + 27px);
-}
 
-.table-info{
-  padding: 25px;
-  background: rgba(255,255,255,0.4);
-  backdrop-filter: blur(5px);
-  margin: 20px;
+.glass-card {
+    width: 80%;
+    padding: 35px;
+    background-color: rgba(255, 255, 255, .20);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+    backdrop-filter: blur(15px);
+    margin: auto;
+    margin-bottom: 50px;
 }
