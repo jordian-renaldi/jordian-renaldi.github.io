@@ -24,26 +24,62 @@
 
     <div class="glass-card">
         <div class="row align-items-center">
-            <div class="col-md-6">
-                <img src="linkedin profile picture.jpg" alt="" width="100%" style="text-align:left">
+            <div class="col-xl-6">
+                <img src="img/linkedin profile picture.jpg" alt="" width="100%" style="text-align:left">
             </div>
-            <div class="col-md-6 text-center">
-                <h4 class="display-1" style="vertical-align: middle;">About me</h4>
+            <div class="col-xl-6 text-center">
+                <h4 class="display-1 mb-5" style="vertical-align: middle; font-size: 10vh; font-weight: 400;">About me
+                </h4>
                 <br>
-                <p class="display-5"  style="vertical-align: middle;"> I am a sophomore student in Singapore Management University (SMU). I am currently
-                    studying BSc: Information Sytems and I hope to be able to be a software engineer. Though I am still
-                    exploring my options in the tech field</p>
+                <p class="display-1" style="vertical-align: middle; font-size: 5vh; "> I am a sophomore student in
+                    Singapore Management University (SMU). I am currently
+                    studying BSc: Information Sytems and I hope to be able to be a software engineer.
+                </p>
+                <p class="display-5 mt-5" style="vertical-align: middle; font-size: 5vh;">
+                    Scroll below to find out more about me !
+                </p>
             </div>
         </div>
-
     </div>
 
+    <!--  -->
+    <div class="education-container">
+       <div class="row">
+        <div class="col-md-4 card tilt-card" data-tilt data-tilt-scale="1.1">
+            <p>Hello</p>
+        </div>
+        <div class="col-md-4 card tilt-card">
+            <p>Hello</p>
+        </div>
+        <div class="col-md-4 card tilt-card">
+            <p>Hello</p>
+        </div>
+       </div>
+    </div>
 
-
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            glare: true,
+            reverse: true,
+            "max-glare": 0.15
+        });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
+    <script src="vanilla-tilt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"
+        integrity="sha512-K9tDZvc8nQXR1DMuT97sct9f40dilGp97vx7EXjswJA+/mKqJZ8vcZLifZDP+9t08osMLuiIjd4jZ0SM011Q+w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            glare: true,
+            reverse: true,
+            "max-glare": 0.15
+        });
+    </script>
 </body>
 
 </html>
