@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordian's Fun side</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-    <link rel="stylesheet" href="fun.css">
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <link rel="stylesheet" href="css/fun.css">
 </head>
+
 <body>
     <div class="container text-center my-5">
-        <h3 style="color: white;"> Glad to see that you're here!</h3>
-        <h5 style="color: white;"> YOU WANT TO PLAY? LETS PLAY</h5>
+        <h1 style="color: white;"> Glad to see that you're here!</h1>
+        <h3 style="color: white;" id="chamber-line" class="mt-3"> <span>YOU WANT TO PLAY?</span> <span style="display:none"> LETS PLAY !</span></h3>
+        <div class="row mt-3" id="chamber" style="display: none;">
+            <figure class="figure">
+                <img src="img/chamberpng.png" class="figure-img img-fluid rounded img_slide_in" alt="">
+                <h5 class="display-3 text-white">Congrats you found Chamber, my favourite Valorant Agent !</h5>
+                <figcaption class=" display-6 text-white">He is a well dressed and well armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.</figcaption>
+              </figure>
+        </div>
+        
     </div>
 
-    <model-viewer src="valoran-trophy/scene.gltf" alt="VR Headset" auto-rotate ar disable-zoom  disable-pan ios-src="valoran-trophy/scene.gltf"></model-viewer>
+    <div class="valorant-container container mt-0">
+        <div class="row">
+            <div class="col-xl-6">
+                <model-viewer src="valorant-logo/scene.gltf" alt="VR Headset" auto-rotate disable-zoom disable-pan
+                    camera-orbit="180deg" ios-src="valorant-logo/scene.gltf" uto-rotate-delay="2500"
+                    rotation-per-second="400%" style="margin: auto ;"></model-viewer>
+                    <p style="display:none">This work is based on "3D Valorant Logo" (https://sketchfab.com/3d-models/3d-valorant-logo-24e9dda90f234bb0b308a02dca5584f2) by 4secs (https://sketchfab.com/4secs) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)</p>
+            </div>
+            <div class="col-xl-6" >
+                <h3 style="color: white;">Valorant is a free-to-play first-person hero shooter
+                    developed and published by
+                    Riot Games, for Microsoft Windows. First teased under the codename Project A in October 2019, the
+                    game began a closed beta period with limited access on April 7, 2020, followed by an official
+                    release on June 2, 2020.</h3>
+            </div>
+        </div>
+    </div>
 
-    
-    
-    
+
+
+
 </body>
+<script src="fun.js"></script>
 </html>

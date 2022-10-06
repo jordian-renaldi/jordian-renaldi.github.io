@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    cursor: pointer;
+}
+
+model-viewer{
+    min-height: 50vh;
+}
+
+.valorant-container{
+    line-height: 50vh;
+    height: 50vh;
+    text-align: center;
+}
+
+.valorant-container h3{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img_slide_in{
+    animation:slidein 1s;
+    min-height: 50vh;
+    max-height: 80vh;
+    width: auto;
+}
+
+@keyframes slidein {
+    0%{
+      margin-left: 100%;
+      width: 100%
+    }
+    100%{
+      margin-left: 0%;
+      width: 100%;
+    }
+}

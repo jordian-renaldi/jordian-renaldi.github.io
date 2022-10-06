@@ -1,0 +1,11 @@
+Model Information:
+* title:	3D Valorant Logo
+* source:	https://sketchfab.com/3d-models/3d-valorant-logo-24e9dda90f234bb0b308a02dca5584f2
+* author:	4secs (https://sketchfab.com/4secs)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "3D Valorant Logo" (https://sketchfab.com/3d-models/3d-valorant-logo-24e9dda90f234bb0b308a02dca5584f2) by 4secs (https://sketchfab.com/4secs) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
