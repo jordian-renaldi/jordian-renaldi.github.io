@@ -1,9 +1,9 @@
 body {
-    background: url(img/soft-blurred-pastel-holographic-design.jpg);
-    background-size: 500vh;
-    background-repeat: contain;
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
-    background-color: white;
 }
 
 .home {

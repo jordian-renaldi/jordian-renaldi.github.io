@@ -11,6 +11,7 @@
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
     <link rel="stylesheet" href="css/fun.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -20,22 +21,22 @@
         <div class="row mt-3" id="chamber" style="display: none;">
             <figure class="figure">
                 <img src="img/chamberpng.png" class="figure-img img-fluid rounded img_slide_in" alt="">
-                <h5 class="display-3 text-white">Congrats you found Chamber, my favourite Valorant Agent !</h5>
-                <figcaption class=" display-6 text-white">He is a well dressed and well armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.</figcaption>
+                <h5 class="display-6 text-white mb-3">Congrats you found CHAMBER, <br> my favourite Valorant Agent !</h5>
+                <p class="text-white">He is a well dressed and well armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.</p>
               </figure>
         </div>
         
     </div>
 
-    <div class="valorant-container container mt-0">
-        <div class="row">
+    <div class="valorant-container container mt-0 mb-5">
+        <div class="row valorant-row">
             <div class="col-xl-6">
                 <model-viewer src="valorant-logo/scene.gltf" alt="VR Headset" auto-rotate disable-zoom disable-pan
                     camera-orbit="180deg" ios-src="valorant-logo/scene.gltf" uto-rotate-delay="2500"
                     rotation-per-second="400%" style="margin: auto ;"></model-viewer>
                     <p style="display:none">This work is based on "3D Valorant Logo" (https://sketchfab.com/3d-models/3d-valorant-logo-24e9dda90f234bb0b308a02dca5584f2) by 4secs (https://sketchfab.com/4secs) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)</p>
             </div>
-            <div class="col-xl-6" >
+            <div class="col-xl-6 mb-5" >
                 <h3 style="color: white;">Valorant is a free-to-play first-person hero shooter
                     developed and published by
                     Riot Games, for Microsoft Windows. First teased under the codename Project A in October 2019, the
@@ -45,6 +46,28 @@
         </div>
     </div>
 
+    <h3 style="color:green; width: 80%; margin:auto; text-align: center;" class="mb-3">I also love basketball and the NBA, here are some of the player data of my favourite team</h3>
+    <h1 style="color:green; width: 80%; margin:auto; text-align: center;" class="mb-3">THE BOSTON CELTICS</h1>
+    <div class="container boston-container mx-auto" >
+        <div class="row mx-auto text-center" id="boston">
+
+        </div>
+    </div>
+
+    <div class="japan text-center" >
+        <h1 style="color:white;">Last but not least I love Japan and its food !</h1>
+        <div class="japan-row row">
+            <div class="col-lg-4"> <model-viewer src="sushi__ramen_booth/scene.gltf"  auto-rotate disable-zoom disable-pan rotation-per-second="400%"  ios-src="assets/HTC_Vive_Headset.gltf"></model-viewer></div>
+            <div class="col-lg-4"><iframe width="100%" height="100%"
+                src="https://www.youtube.com/embed/7UEDpqOWDJM?autoplay=1&mute=1">
+                </iframe></div>
+            <div class="col-lg-4">  <model-viewer src="vaporwave_littlest_tokyo_-_3d_editor_challenge/scene.gltf" auto-rotate disable-zoom disable-pan rotation-per-second="400%" ios-src="assets/HTC_Vive_Headset.gltf"></model-viewer></div>
+        </div>
+    </div>
+
+    <div class="jumbotron-fluid text-center p-3 mt-5" style="background-color:white;">
+        <h5>Thanks for making it all the way down here, I'll update this page time to time so stay tuned !</h5>
+    </div>
 
 
 
