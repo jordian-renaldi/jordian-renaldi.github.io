@@ -14,7 +14,7 @@ const options = {
   url: 'https://api-nba-v1.p.rapidapi.com/players',
   params: {team: '2', season: '2022'},
   headers: {
-    'X-RapidAPI-Key': '29a2aaf1d3msh8a2f87320377dcbp1d4453jsn61f6eeb31d7a',
+    'X-RapidAPI-Key': '${api_key}',
     'X-RapidAPI-Host': 'api-nba-v1.p.rapidapi.com'
   }
 };
